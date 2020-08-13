@@ -11,7 +11,7 @@
 6. [任意] `data mofify storage ~ set chenbr:array_util Array[]` このコマンドで元の配列へ変更を適用する
 
 Example:
-```
+```mcfunction
 # array set
     data modify storage chenbr:array_util Array set value [0,1,2,3,4,5,6,7,8,9]
 # index set
