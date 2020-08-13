@@ -37,6 +37,5 @@ function ass_chenbr:api/revert
  * 再配布, 改変, 商用/私的利用ok
  * このライブラリ使ったことによって何か起きてもちぇんは責任も保証もしないよ
 
-- - -
 ## 連絡先
 [Twitter](https://twitter.com/Chen__CMD)
