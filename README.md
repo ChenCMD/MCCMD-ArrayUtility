@@ -1,8 +1,9 @@
 # ArrayStorageSystem
 **配列のindex -1に目的のデータを持ってくることや操作ができるシステム**
-## 使い方
 
-### 基本
+## DL方法
+[こちら](https://github.com/ChenCMD/MCCMD-ArrayUtility/releases/tag/1.0)からAssets -> ArrayUtility.zip をDLしてください
+## 使い方
 1. `data modify storage chenbr:array_util Array set ~ `で**chenbr:array_util Array**に配列を設定
 2. **CB02_Input $Move** に配列の目標位置のindexを設定
 3. `function chenbr_array_utility:api/move`を実行
@@ -28,11 +29,10 @@ function ass_chenbr:api/revert
     tellraw @a {"storage":"chenbr:array_util","nbt":"Array[]"}
 ```
 
-- - -
 ## 注意点
  * 前回のキャッシュが残った状態で配列操作を行うは非推奨です。  意図した場合を除き、必ず`ass_chenbr:api/force_delete_cache`または`ass_chenbr:api/revert`を実行してから配列操作を行ってください。
  * 不具合が起きる可能性が高いため、`ass_chenbr:core/*`のfunctionを直接実行しないでください。
-- - -
+
 ## ざっくりライセンス
  * 再配布, 改変, 商用/私的利用ok
  * このライブラリ使ったことによって何か起きてもちぇんは責任も保証もしないよ
