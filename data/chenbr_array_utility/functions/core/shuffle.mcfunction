@@ -1,5 +1,7 @@
 #> chenbr_array_utility:core/shuffle
-# @internal
+# @within function
+#   chenbr_array_utility:core/**
+#   chenbr_array_utility:api/shuffle
 
 scoreboard players operation #X CB02_Core *= #A CB02_Core
 scoreboard players operation #X CB02_Core %= #M CB02_Core

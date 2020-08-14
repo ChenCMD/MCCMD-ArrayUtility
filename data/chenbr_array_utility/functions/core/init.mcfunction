@@ -1,6 +1,4 @@
 #> chenbr_array_utility:core/init
-# @within function
-#   chenbr_array_utility:core/init
 # @within tag/function
 #   minecraft:load
 

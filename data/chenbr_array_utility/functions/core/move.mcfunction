@@ -1,5 +1,7 @@
 #> chenbr_array_utility:core/move
-# @internal
+# @within function
+#   chenbr_array_utility:core/**
+#   chenbr_array_utility:api/move
 
 scoreboard players remove #arrayX CB02_Core 1
 data modify storage chenbr:array_util Cache append from storage chenbr:array_util Array[-1]
