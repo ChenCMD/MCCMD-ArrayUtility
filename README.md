@@ -24,7 +24,7 @@ Example:
 # replace 5 -> 15
     data modify storage chenbr:array_util Array[-1] set value 15
 # revert
-function ass_chenbr:api/revert
+function chenbr_array_utility:api/revert
 # output: 0,1,2,3,4,15,6,7,8,9
     tellraw @a {"storage":"chenbr:array_util","nbt":"Array[]"}
 ```
