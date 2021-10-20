@@ -1,5 +1,5 @@
 {
     "values": [
-        "chenbr_array_utility:core/init"
+        "array_util:core/init"
     ]
 }

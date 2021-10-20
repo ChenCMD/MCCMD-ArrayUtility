@@ -1,4 +1,4 @@
-#> chenbr_array_utility:core/init
+#> array_util:core/init
 # @within tag/function
 #   minecraft:load
 
@@ -8,5 +8,5 @@
 
 #> access modifier: public
 # @public
-    #declare storage chenbr:array_util
+    #declare storage array_util:
     scoreboard objectives add CB02_Input dummy
