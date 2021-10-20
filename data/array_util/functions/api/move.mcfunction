@@ -7,7 +7,7 @@
 #   storage array_util:
 #       Array: list(any)
 #           操作する配列データ
-#   score $Move CB02_Input
+#   score $Move ArrayUtilInput
 #       目的の要素のindex
 # @output
 #   storage array_util:
@@ -16,7 +16,7 @@
 #       Cache: list(any)
 #           移動されたデータ
 
-execute store result score #arrayX CB02_Core if data storage array_util: Array[]
-scoreboard players remove #arrayX CB02_Core 1
-scoreboard players operation #arrayX CB02_Core -= $Move CB02_Input
-execute if score #arrayX CB02_Core matches 1.. run function array_util:core/move
+execute store result score #arrayX ArrayUtilCore if data storage array_util: Array[]
+scoreboard players remove #arrayX ArrayUtilCore 1
+scoreboard players operation #arrayX ArrayUtilCore -= $Move ArrayUtilInput
+execute if score #arrayX ArrayUtilCore matches 1.. run function array_util:core/move
