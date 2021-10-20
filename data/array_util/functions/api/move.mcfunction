@@ -16,7 +16,7 @@
 #       Cache: list(any)
 #           移動されたデータ
 
-execute store result score #arrayX ArrayUtilCore if data storage array_util: Array[]
-scoreboard players remove #arrayX ArrayUtilCore 1
-scoreboard players operation #arrayX ArrayUtilCore -= $Move ArrayUtilInput
-execute if score #arrayX ArrayUtilCore matches 1.. run function array_util:core/move
+execute store result score $arrayX ArrayUtilCore if data storage array_util: Array[]
+scoreboard players remove $arrayX ArrayUtilCore 1
+scoreboard players operation $arrayX ArrayUtilCore -= $Move ArrayUtilInput
+execute if score $arrayX ArrayUtilCore matches 1.. run function array_util:core/move

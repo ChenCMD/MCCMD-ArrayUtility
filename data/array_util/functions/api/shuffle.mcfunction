@@ -13,7 +13,7 @@
 #           ランダムな順の配列
 
 
-execute store result score #ListSize ArrayUtilCore if data storage array_util: Array[]
+execute store result score $ListSize ArrayUtilCore if data storage array_util: Array[]
 data modify storage array_util: ArrayO set value []
 function array_util:core/shuffle
 data modify storage array_util: Array set from storage array_util: ArrayO
