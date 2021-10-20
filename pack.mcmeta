@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 6,
-        "description": "Array Storage System"
+        "pack_format": 7,
+        "description": "Array operation utility"
     }
 }
