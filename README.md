@@ -3,7 +3,7 @@
 
 
 ## DL方法
-[こちら](https://github.com/ChenCMD/MCCMD-ArrayUtility/releases/latest/download/ArrayUtility.zip)をDLしてください
+[こちら](https://github.com/ChenCMD/MCCMD-ArrayUtility/releases/latest/download/MCCMD-ArrayUtility.zip)をDLしてください
 
 
 ## 配列の動的添字参照
