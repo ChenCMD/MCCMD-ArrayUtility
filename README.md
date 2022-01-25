@@ -1,4 +1,4 @@
-# ArrayStorageSystem
+# MCCMD-ArrayUtility
 配列の動的添字参照やシャッフル、反転ができるライブラリ
 
 
